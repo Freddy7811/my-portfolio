@@ -210,15 +210,6 @@ section .title::after{
     color: aqua;
     background: none;
 }
-.home .home-img{
-    background-image:url("img/profil.jpg");
-    float: left;
-    height: 300px;
-    width: 300px;
-    margin-left: 12rem;
-    border-radius: 50%;
-
-}
 
 /* about section styling */
 }
@@ -495,7 +486,7 @@ footer span{
         font-size: 70px;
     }
     .home .home-content .text-3{
-        font-size: 35px;
+        font-size: 25px;
     }
     .home .home-content a{
         font-size: 23px;
