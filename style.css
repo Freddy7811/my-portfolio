@@ -210,7 +210,8 @@ section .title::after{
     color: aqua;
     background: none;
 }
-.home .home-img img{
+.home .home-img{
+    background-image:url("img/profil.jpg");
     float: left;
     height: 300px;
     width: 300px;
