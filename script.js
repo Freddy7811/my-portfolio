@@ -58,3 +58,14 @@ $(document).ready(function(){
         }
     });
 });
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyat3rPQ56BKRnjuOsZ-qcOZ5RZnKDelFcgkqqg3b5D95ymlbyh8wtq229D_fzQRnH5/exec'
+  const form = document.forms['freddy-contact-form'];
+    form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        form.reset();
+        console.log('Success!', response)})
+      .catch(error => console.error('Error!', error.message))
+  })

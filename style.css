@@ -104,7 +104,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: black;
 }
 .navbar .menu li{
     list-style: none;
@@ -122,7 +122,7 @@ section .title::after{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: crimson;
+    color: black;
 }
 
 /* menu btn styling */
@@ -254,8 +254,8 @@ section .title::after{
     background: none;
 }
 .projects .card {
-    color: black;
-    background-color: #fff;
+    color: white;
+    background-color: black;
     width: 320px;
     height: 320px;
     margin: 10px;
@@ -279,7 +279,7 @@ section .title::after{
 
 .projects .card:hover{
     background-color: crimson;
-    color: black;
+    color: white;
     cursor: pointer;
     transform: scale(1.04);
     transition: all 1s ease;
